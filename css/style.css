@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    width: 80%; 
+    margin: 100px auto;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+li{
+    font-size: large;
+}
+
+.btn-box{
+    display: flex; justify-content: center;
+}
+.btn-box button{
+    background-color: transparent;
+    border: none; outline: none;
+    cursor: pointer;
+    padding: 15px; margin-left: 20px;
+    margin-left: 20px;
+    font-size: 20px; font-weight: bold;
+}
+#btn1, #btn2, #btn3{
+    z-index: 10;
+    /* background-color: white;
+    margin-bottom: -0.2px;*/
+    /* border-bottom: black;  */
+}
+.btn-box i{
+    margin-right: 10px;
+    color: tomato;
+}
+
+.btn-box button:hover i{
+    color: tomato;
+    
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    margin: 5% auto;
+    position: absolute;  
+    left: 20%;
+}
+
+.content-left{
+    margin-right: 10px;
+}
+
+.content-right{
+    margin-left: 150px;
+}
+
+h1{
+    margin-bottom: 30px;
+    color: rgb(241, 107, 83);
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+    
+}
+
+ul li{
+    border-right: tomato 20px solid;
+    margin-bottom: 10px;
+    padding-right: 15px;
+}
+
+
+
+img{
+    width: 300px;
+} 
+
+video{
+    width: 225px;
+    height: 387px;
+}
+
+
+
